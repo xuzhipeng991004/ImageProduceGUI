@@ -1,5 +1,6 @@
 function [basetype,colortype,openFile,saveFile] = getParameter(fid)
 %getParaqmeter函数主要是为了从打开的文件夹中得到参数列表中的多参数
+%返回的参数列表表示的四个基本参数
 i=1;                                                                      
 nonblank=cell(4);
 while ~feof(fid)
